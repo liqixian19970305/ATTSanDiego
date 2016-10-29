@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BD45A6A1DC54E97004AA74C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4BD45A691DC54E97004AA74C /* Podfile */; };
 		55AEC6221DC524A000F9EE04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEC6211DC524A000F9EE04 /* AppDelegate.swift */; };
 		55AEC6241DC524A000F9EE04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEC6231DC524A000F9EE04 /* ViewController.swift */; };
 		55AEC6271DC524A000F9EE04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AEC6251DC524A000F9EE04 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BD45A691DC54E97004AA74C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		55AEC61E1DC524A000F9EE04 /* ATTSanDiego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATTSanDiego.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AEC6211DC524A000F9EE04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55AEC6231DC524A000F9EE04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		55AEC6151DC524A000F9EE04 = {
 			isa = PBXGroup;
 			children = (
+				4BD45A691DC54E97004AA74C /* Podfile */,
 				55AEC6201DC524A000F9EE04 /* ATTSanDiego */,
 				55AEC6351DC524A100F9EE04 /* ATTSanDiegoTests */,
 				55AEC61F1DC524A000F9EE04 /* Products */,
@@ -183,6 +186,7 @@
 			files = (
 				55AEC62C1DC524A000F9EE04 /* LaunchScreen.storyboard in Resources */,
 				55AEC6291DC524A000F9EE04 /* Assets.xcassets in Resources */,
+				4BD45A6A1DC54E97004AA74C /* Podfile in Resources */,
 				55AEC6271DC524A000F9EE04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +416,7 @@
 				55AEC63D1DC524A100F9EE04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55AEC63E1DC524A100F9EE04 /* Build configuration list for PBXNativeTarget "ATTSanDiegoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				55AEC6401DC524A100F9EE04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
