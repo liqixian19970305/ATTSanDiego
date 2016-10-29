@@ -13,6 +13,8 @@
 		55AEC6291DC524A000F9EE04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AEC6281DC524A000F9EE04 /* Assets.xcassets */; };
 		55AEC62C1DC524A000F9EE04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AEC62A1DC524A000F9EE04 /* LaunchScreen.storyboard */; };
 		55AEC6371DC524A100F9EE04 /* ATTSanDiegoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEC6361DC524A100F9EE04 /* ATTSanDiegoTests.swift */; };
+		675BB2B7166CDCDBF39313C1 /* Pods_ATTSanDiego.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC719396BA50A503003FA245 /* Pods_ATTSanDiego.framework */; };
+		D37FA6E9245F4C5EA4F7E6A0 /* Pods_ATTSanDiegoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFCFF5C3F7D62256B438060 /* Pods_ATTSanDiegoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		521EF3FF16FF8632DA687F1F /* Pods-ATTSanDiegoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATTSanDiegoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATTSanDiegoTests/Pods-ATTSanDiegoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		55AEC61E1DC524A000F9EE04 /* ATTSanDiego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATTSanDiego.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AEC6211DC524A000F9EE04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55AEC6231DC524A000F9EE04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		55AEC6321DC524A100F9EE04 /* ATTSanDiegoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATTSanDiegoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AEC6361DC524A100F9EE04 /* ATTSanDiegoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTSanDiegoTests.swift; sourceTree = "<group>"; };
 		55AEC6381DC524A100F9EE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFCFF5C3F7D62256B438060 /* Pods_ATTSanDiegoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATTSanDiegoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F102CAA8F67A59B61C95CF9 /* Pods-ATTSanDiegoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATTSanDiegoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATTSanDiegoTests/Pods-ATTSanDiegoTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA055B98207DFC66D6EE6833 /* Pods-ATTSanDiego.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATTSanDiego.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATTSanDiego/Pods-ATTSanDiego.debug.xcconfig"; sourceTree = "<group>"; };
+		DFC3EB09AB54A3088FECB961 /* Pods-ATTSanDiego.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATTSanDiego.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATTSanDiego/Pods-ATTSanDiego.release.xcconfig"; sourceTree = "<group>"; };
+		FC719396BA50A503003FA245 /* Pods_ATTSanDiego.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATTSanDiego.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				675BB2B7166CDCDBF39313C1 /* Pods_ATTSanDiego.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37FA6E9245F4C5EA4F7E6A0 /* Pods_ATTSanDiegoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				55AEC6201DC524A000F9EE04 /* ATTSanDiego */,
 				55AEC6351DC524A100F9EE04 /* ATTSanDiegoTests */,
 				55AEC61F1DC524A000F9EE04 /* Products */,
+				ADA34D635B5B088AD63C82CA /* Pods */,
+				AEEB1B7CAF8B714C805281BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = ATTSanDiegoTests;
 			sourceTree = "<group>";
 		};
+		ADA34D635B5B088AD63C82CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA055B98207DFC66D6EE6833 /* Pods-ATTSanDiego.debug.xcconfig */,
+				DFC3EB09AB54A3088FECB961 /* Pods-ATTSanDiego.release.xcconfig */,
+				521EF3FF16FF8632DA687F1F /* Pods-ATTSanDiegoTests.debug.xcconfig */,
+				9F102CAA8F67A59B61C95CF9 /* Pods-ATTSanDiegoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEEB1B7CAF8B714C805281BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC719396BA50A503003FA245 /* Pods_ATTSanDiego.framework */,
+				7BFCFF5C3F7D62256B438060 /* Pods_ATTSanDiegoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55AEC63B1DC524A100F9EE04 /* Build configuration list for PBXNativeTarget "ATTSanDiego" */;
 			buildPhases = (
+				B65C87F44F054D062BC7EC84 /* [CP] Check Pods Manifest.lock */,
 				55AEC61A1DC524A000F9EE04 /* Sources */,
 				55AEC61B1DC524A000F9EE04 /* Frameworks */,
 				55AEC61C1DC524A000F9EE04 /* Resources */,
+				15E21187A31BA287B1B41326 /* [CP] Embed Pods Frameworks */,
+				45C9DB9463AB33C12CAE1AA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55AEC63E1DC524A100F9EE04 /* Build configuration list for PBXNativeTarget "ATTSanDiegoTests" */;
 			buildPhases = (
+				E176CE4F9030C15E9F3E8EF7 /* [CP] Check Pods Manifest.lock */,
 				55AEC62E1DC524A100F9EE04 /* Sources */,
 				55AEC62F1DC524A100F9EE04 /* Frameworks */,
 				55AEC6301DC524A100F9EE04 /* Resources */,
+				12145B574EBE01BD0F9C70D4 /* [CP] Embed Pods Frameworks */,
+				B365A228F47F119A0EA43E06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +233,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12145B574EBE01BD0F9C70D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATTSanDiegoTests/Pods-ATTSanDiegoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15E21187A31BA287B1B41326 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATTSanDiego/Pods-ATTSanDiego-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45C9DB9463AB33C12CAE1AA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATTSanDiego/Pods-ATTSanDiego-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B365A228F47F119A0EA43E06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATTSanDiegoTests/Pods-ATTSanDiegoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B65C87F44F054D062BC7EC84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E176CE4F9030C15E9F3E8EF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		55AEC61A1DC524A000F9EE04 /* Sources */ = {
@@ -339,6 +470,7 @@
 		};
 		55AEC63C1DC524A100F9EE04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA055B98207DFC66D6EE6833 /* Pods-ATTSanDiego.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3HW277PH2D;
@@ -352,6 +484,7 @@
 		};
 		55AEC63D1DC524A100F9EE04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC3EB09AB54A3088FECB961 /* Pods-ATTSanDiego.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3HW277PH2D;
@@ -365,6 +498,7 @@
 		};
 		55AEC63F1DC524A100F9EE04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521EF3FF16FF8632DA687F1F /* Pods-ATTSanDiegoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -380,6 +514,7 @@
 		};
 		55AEC6401DC524A100F9EE04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F102CAA8F67A59B61C95CF9 /* Pods-ATTSanDiegoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

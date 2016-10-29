@@ -1,0 +1,6 @@
+framework module Pods_ATTSanDiego {
+  umbrella header "Pods-ATTSanDiego-umbrella.h"
+
+  export *
+  module * { export * }
+}
